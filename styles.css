@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+#hero-img {
+    background-image: url("images/food5.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-wrapper {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-wrapper h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border: 3px solid;
+    padding: 5px;
+    border-image: linear-gradient(to right, red, yellow);
+    border-image-slice: 1;
+}
+
+.hero-wrapper p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(158, 12, 12);
+    /* background-color: rgba(0, 0, 255, 0.141); */
+    text-align: justify;
+    font-weight: bold;
+}
+
+.hero-wrapper .form-code {
+    display: block;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.hero-wrapper .form-code input {
+    border-radius: 30px;
+    height: 40px;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: rgb(80, 28, 28);
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.hero-wrapper .form-code input::placeholder {
+    padding-left: 30px;
+}
+
+.hero-wrapper .form-code button {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 150px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(80, 28, 28);
+    color: green;
+    transition: 0.5s;
+}
+
+.hero-wrapper .form-code button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+/* product List */
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.product-list {
+    float: left;
+    width: 33.33%;
+
+}
+ .product-list img {
+    display: flex;
+ }
+
+ .product-list h2 {
+    text-align: center;
+ }
