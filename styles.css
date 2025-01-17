@@ -10,7 +10,7 @@
 }
 
 #hero-img {
-    background-image: url("images/food5.jpg");
+    background-image: url("images/current.jpeg");
     width: 100%;
     height: 100vh;
     background-position: center center;
@@ -31,7 +31,7 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: whitesmoke;
     border: 3px solid;
     padding: 5px;
     border-image: linear-gradient(to right, red, yellow);
@@ -41,10 +41,11 @@
 .hero-wrapper p {
     text-align: center;
     font-size: 15px;
-    color: rgb(158, 12, 12);
-    /* background-color: rgba(0, 0, 255, 0.141); */
-    text-align: justify;
-    font-weight: bold;
+    color: white;
+    margin: 5px;
+    line-height: 1.6;
+    /* text-align: justify; */
+    /* font-weight: bold; */
 }
 
 .hero-wrapper .form-code {
@@ -60,7 +61,7 @@
     width: 50%;
     outline: none;
     border: none;
-    background-color: rgb(80, 28, 28);
+    background-color: rgb(141, 20, 20);
     color: white;
     font-size: large;
     text-align: center;
@@ -68,6 +69,7 @@
 
 .hero-wrapper .form-code input::placeholder {
     padding-left: 30px;
+    color: white;
 }
 
 .hero-wrapper .form-code button {
@@ -79,14 +81,14 @@
     border-radius: 30px;
     outline: none;
     border: none;
-    background-color: rgb(80, 28, 28);
-    color: green;
+    background-color: rgb(143, 33, 33);
+    color: khaki;
     transition: 0.5s;
 }
 
 .hero-wrapper .form-code button:hover {
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid greenyellow;
 }
 
 /* product List */
@@ -100,12 +102,18 @@
 .product-list {
     float: left;
     width: 33.33%;
+    margin-bottom: 20px;
 
 }
  .product-list img {
     display: flex;
+    margin-bottom: 10px;
  }
 
  .product-list h2 {
-    text-align: center;
+    text-align: center ;
+ }
+
+ .product-list p {
+    width: 300px;
  }
