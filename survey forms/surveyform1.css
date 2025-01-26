@@ -24,7 +24,7 @@ body {
 
 .head-container h1 {
     color: black;
-    font-family:Georgia, Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .head-container h1 .head-container p {
@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 450px;
-     background: linear-gradient(120deg, #eea7b4, #df91a3);
+     background: linear-gradient(120deg, #f8f4f5, #e5a8b6);
 }
 
 
