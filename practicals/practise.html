@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graphic Designer Portfolio</title>
-    <link rel="stylesheet" href="practise.css">
+  <title>Fantasy Adventure Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0e68c;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+    .scene {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <span>RS</span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#hire">Hire Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>I AM A PROFESSIONAL <span>GRAPHIC DESIGNER</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dapibus nisl nunc, at congue massa elementum non. Vestibulum pretium ipsum sed nisl rutrum bibendum. Integer vitae volutpat arcu.</p>
-                <button>Hire Me</button>
-            </div>
-            <div class="hero-image">
-                <img src="person.jpg" alt="Professional Graphic Designer">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contact-info">
-            <p>House#74 Road#7 Block-H<br>Banani, Dhaka - 1213</p>
-            <p>Email: raiyan@shikhbeshobai.com<br>Website: www.raiyansofwan.com</p>
-        </div>
-        <div class="copyright">
-            <p>All rights reserved Raiyan Sofwan, 2019</p>
-        </div>
-    </footer>
+  <h1>Welcome to the Fantasy Adventure!</h1>
+  <div id="scene" class="scene">
+    <p>You find yourself in a magical forest. What do you want to do?</p>
+    <button onclick="goToScene('castle')">Go to the castle</button>
+    <button onclick="goToScene('river')">Follow the river</button>
+    <button onclick="goToScene('cave')">Explore the cave</button>
+  </div>
+
+  <div id="castle" class="scene" style="display: none;">
+    <p>You arrive at a grand castle. A friendly dragon greets you. What do you want to do?</p>
+    <button onclick="goToScene('dragonRide')">Ride the dragon</button>
+    <button onclick="goToScene('treasure')">Look for treasure</button>
+    <button onclick="goToScene('princess')">Meet the princess</button>
+  </div>
+
+  <div id="river" class="scene" style="display: none;">
+    <p>You follow the river and find a group of talking animals. What do you want to do?</p>
+    <button onclick="goToScene('dance')">Dance with animals</button>
+    <button onclick="goToScene('boat')">Ride a boat</button>
+    <button onclick="goToScene('picnic')">Have a picnic</button>
+  </div>
+
+  <div id="cave" class="scene" style="display: none;">
+    <p>You explore the cave and find a hidden door to a secret garden. What do you want to do?</p>
+    <button onclick="goToScene('garden')">Enter the garden</button>
+    <button onclick="goToScene('treasureHunt')">Start a treasure hunt</button>
+    <button onclick="goToScene('magic')">Learn magic</button>
+  </div>
+
+  <script>
+    function goToScene(sceneId) {
+      document.querySelectorAll('.scene').forEach(scene => scene.style.display = 'none');
+      document.getElementById(sceneId).style.display = 'block';
+    }
+  </script>
 </body>
 </html>
