@@ -24,7 +24,7 @@ body {
 
 .head-container h1 {
     color: black;
-    font-family:cursive;
+    font-family:Georgia, Times, serif;
 }
 
 .head-container h1 .head-container p {
@@ -53,7 +53,7 @@ input[type="text"], input[type="email"], input[type="tel"] {
     display: inline;
     width: 50%;
     gap: 20px;
-    padding: 3px;
+    padding: 5px;
     margin: 5px 0px 0px 20px;
     border: 1px solid #000;
     box-shadow: 2 0 0 2 solid #000;
@@ -61,27 +61,27 @@ input[type="text"], input[type="email"], input[type="tel"] {
 }
 #name {
     width: 50%;
-    margin: 10px 5px 0 30px;
+    margin: 10px 0px 0 30px;
 }
 
 #address {
     width: 78%;
-    margin: 0 0 0 14px;
+    margin: 0 0 5px 14px;
 }
 
 #gender {
     width: 10%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 5px 0;
 }
 
 #email {
     width: 78%;
-    margin: 0 0 0 33px;
+    margin: 0 0 5px 33px;
 }
 
 #phone {
     width: 40%;
-    margin: 0 0 0 27px;
+    margin: 0 0 10px 27px;
 }
 
 textarea {
