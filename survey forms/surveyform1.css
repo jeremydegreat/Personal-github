@@ -89,3 +89,17 @@ textarea {
     width: 430px;
     height: 80px;
 }
+
+#submit {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#submit:hover {
+    background-color: grey;
+    transition: 0.5s;
+    border: 2px solid khaki;
+}
