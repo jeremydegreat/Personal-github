@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    padding: 20px;
+    background-color: rgb(235, 235, 85);
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.container h1 {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.label-below {
+    font-size: 12px;
+    color: grey;
+    position: relative;
+    top: -50px;
+    margin: 0 215px 0 0;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 7px;
+    border: 1px solid rgb(193, 187, 187);
+    border-radius: 3px;
+    margin: 10px 20px 50px 0;
+    width: 43%;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+    padding: 50px;
+    border: 1px solid rgb(193, 187, 187);
+}
+
+
+#year {
+    position: relative;
+    left: 280px;
+    top: -110px;
+}
+
+#sub-head {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -120px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(229, 220, 220);
+    margin-bottom: 20px;
+}
+
+
+
+#paragraph {
+    font-size: 12px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+th {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid lightgrey;
+}
+
+
+#normal {
+    background-color: rgb(246, 246, 112);
+    border: 1px solid rgb(246, 246, 112);
+}
+
+button {
+    background-color: rgb(43, 205, 43);
+    color: white;
+    padding: 10px;
+    width: 30%;
+    margin: 30px 0 0 150px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+

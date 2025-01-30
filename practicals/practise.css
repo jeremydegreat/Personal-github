@@ -1,67 +1,67 @@
-/* styles.css */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #f9e79f;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f7dc6f;
     padding: 20px;
-    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff007f;
+h1 {
+    text-align: center;
+    color: #333;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.form-group {
+    margin-bottom: 15px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #ffffff;
+label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
-.contact-info {
-    text-align: right;
+input[type="text"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.contact-info p {
-    margin: 5px 0;
+input[type="radio"] {
+    margin: 0 10px;
 }
 
-.contact-info a {
-    color: #ff007f;
-    text-decoration: none;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    padding: 20px;
+table, th, td {
+    border: 1px solid #ddd;
 }
 
-.intro {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+th, td {
+    text-align: center;
+    padding: 8px;
 }
 
-.intro-text {
-    max-width: 500px;
+th {
+    background-color: #f39c12;
+    color: white;
 }
 
-.intro-text h1 {
-    font-size: 36px
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

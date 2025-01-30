@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Presentation Evaluation Form</h1>
+    <hr>
+    <div>
+        <form action="" method="post">
+            <div>
+                <label for="teacher's name">Teacher's name</label>
+                <br />
+                <input type="text" id="teacher's name" placeholder="" />
+                <input type="text" id="student's name" placeholder="" />
+                <label for="teacher's name" class="label-below">First name</label>
+                <label for="teacher's name" class="label-below">Last name</label>
+                <br />
+                <label for="student's name">Student's name</label>
+                <br />
+                <input type="text" id="student's name" placeholder="" />
+                <input type="text" id="student's name" placeholder="" />
+                <label for="teacher's name" class="label-below">First name</label>
+                <label for="teacher's name" class="label-below">Last name</label>
+                <br />
+                <label for="id number">ID number</label>
+                <br />
+                <input type="number" id="id number" placeholder="ex:23" />
+                <br />
+                <label for="class" id="year">Class</label>
+                <br />
+                <input type="text" id="year" placeholder="1st year" />
+            </div>
+            <div id="sub-head">
+                <label>Presentation Evaluation</label>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th id="normal"></th>
+                        <th>Poor</th>
+                        <th>Average</th>
+                        <th>Good</th>
+                        <th>Excellent</th>
+                     </tr>
+                    <tr class="content">
+                        <td id="paragraph">The presentation was concised and informative</td>
+                        <td><input type="radio" name="concise" value="poor"></td>
+                        <td><input type="radio" name="concise" value="average"></td>
+                        <td><input type="radio" name="concise" value="good"></td>
+                        <td><input type="radio" name="concise" value="excellent"></td>
+                    </tr>
+                    <tr>
+                        <td id="paragraph">The presentation includes real world examples and approach that might be applied to existing projects.</td>
+                        <td><input type="radio" name="concise" value="poor"></td>
+                        <td><input type="radio" name="concise" value="average"></td>
+                        <td><input type="radio" name="concise" value="good"></td>
+                        <td><input type="radio" name="concise" value="excellent"></td>
+                    </tr>
+                    <tr>
+                        <td id="paragraph">The images were properly used</td>
+                        <td><input type="radio" name="concise" value="poor"></td>
+                        <td><input type="radio" name="concise" value="average"></td>
+                        <td><input type="radio" name="concise" value="good"></td>
+                        <td><input type="radio" name="concise" value="excellent"></td>
+                    </tr>
+                </table>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
