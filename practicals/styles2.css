@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box1 {
+  background-color: red;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.box2 {
+  background-color: green;
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+}
+
+.box3 {
+  background-color: blue;
+  top: 150px;
+  left: 150px;
+  z-index: 2;
+}
