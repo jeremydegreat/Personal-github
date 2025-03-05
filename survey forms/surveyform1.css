@@ -41,11 +41,8 @@ body {
      background: linear-gradient(120deg, #f8f4f5, #e5a8b6);
 }
 
-
-.form-container h1 {
-    text-align: start;
-    font-family:Cambria, Cochin, Georgia, Times, serif;
-    font-weight: bold;
+label {
+    font-size: bold;
 }
 
 

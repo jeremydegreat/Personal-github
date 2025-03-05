@@ -1,0 +1,10 @@
+[class*="col"] {
+    padding: 1rem;
+    background-color: aqua;
+    border: 2px solid white;
+    color: #000;
+    font-size: 14px;
+}
+
+
+
