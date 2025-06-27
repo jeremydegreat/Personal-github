@@ -51,44 +51,7 @@ h1, h2, h3 {
   background-color: #000000cd;
 }
 
-@media only screen and (min-width: 601px) {
-  .header {
-  background-color: lemonchiffon;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: .5rem 1rem;
-  flex-wrap: wrap;
-}
 
-.header img {
-  width: 8%;
-  height: 8em;
-  border-radius: 50%;
-}
-
-.header nav {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.header nav a {
-  padding: 1rem;
-  background-color: #851d1d;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.header nav a:hover {
-  background-color: #000000cd;
-}
-  
-}
 
 /* Hero section */
 .hero {
@@ -97,6 +60,7 @@ h1, h2, h3 {
 }
 
 .hero img {
+  position: relative;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -107,29 +71,31 @@ h1, h2, h3 {
 .hero h2,
 .hero a {
   position: absolute;
-  color: rgb(230, 238, 243);
+  color: antiquewhite;
   text-shadow: 2px 2px 0 #000, 4px 4px 0 #555;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  top: 30%;
-  left: 10%;
+  font-size: 8rem;
+  top: 15%;
+  left: 25%;
 }
 
 .hero h2 {
-  font-size: 2rem;
-  bottom: 30%;
-  left: 10%;
+  font-size: 8rem;
+  bottom: 28%;
+  left: 34%;
 }
 
 .hero a {
+  position: absolute;
+  bottom: 15%;
+  left: 30%;
+  color: white;
   padding: 0.7em;
-  width: 60%;
+  width: 40%;
   text-align: center;
-  font-size: 1.5rem;
-  bottom: 10%;
-  left: 20%;
+  font-size: 2rem;
   border-radius: 1em;
   text-decoration: none;
   background-color: #A42E2B;
@@ -402,4 +368,95 @@ h3 {
 .wireframe a {
   text-decoration: none;
   color: white;
+}
+
+/* --------------Media queries for mobile devices-------------- */
+@media only screen and (max-width: 600px) {
+  .header {
+  background-color: lemonchiffon;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.header img {
+  width: 8%;
+  height: 8em;
+  border-radius: 50%;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header nav a {
+  padding: 1rem;
+  background-color: #851d1d;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.header nav a:hover {
+  background-color: #000000cd;
+}
+
+
+/* Hero section */
+.hero {
+  position: relative;
+  display: block;
+}
+
+.hero img {
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.hero h1,
+.hero h2,
+.hero a {
+  position: absolute;
+  color: antiquewhite;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #555;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  top: 15%;
+  left: 25%;
+}
+
+.hero h2 {
+  font-size: 8rem;
+  bottom: 28%;
+  left: 34%;
+}
+
+.hero a {
+  position: absolute;
+  bottom: 15%;
+  left: 30%;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: .8em;
+  text-decoration: none;
+  background-color: #A42E2B;
+}
+
+.hero a:hover {
+  background-color: #210e0d;
+}
+
+  
 }
